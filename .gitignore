@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs
+outputs/*.csv
+
+# Data cache (keep sample file tracked)
+data/cache/*
+!data/cache/prices_1d.csv
+
+# OS / editor
+.DS_Store
+.vscode/
